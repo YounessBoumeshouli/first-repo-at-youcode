@@ -246,4 +246,4 @@ void coupieStruct(contactes *cont, contactes *contact){
         for (int i = 0; i < contact_numero; i++){
             cont[i] = contact[i];
         }
-}
+} 

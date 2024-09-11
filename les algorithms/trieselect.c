@@ -25,13 +25,10 @@ int main(){
   }
  if (min != i)
        {
-       
         int tmp;
        tmp = num[i];
        num[i] = num[min] ;
        num[min] = tmp;
-       
-        
       }
        }
    for(int i = 0 ; i < 100 ; i ++){
